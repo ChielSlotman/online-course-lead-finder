@@ -1,0 +1,28 @@
+[
+  {
+    "courseTitle": "AI Marketing Masterclass",
+    "courseUrl": "https://example.com/courses/ai-marketing-masterclass",
+    "coursePlatform": "example.com",
+    "creatorName": "Jane Creator",
+    "creatorUrl": "https://example.com/jane-creator",
+    "creatorWebsite": "https://janecreator.com/",
+    "price": 199,
+    "currency": "USD",
+    "category": "Marketing",
+    "niche": "AI marketing course",
+    "descriptionSnippet": "Learn how to use AI tools for content strategy, email campaigns, and automated marketing workflows.",
+    "imageUrl": "https://example.com/course-image.jpg",
+    "rating": 4.8,
+    "reviewCount": 241,
+    "studentsCount": 5100,
+    "email": "hello@janecreator.com",
+    "phone": null,
+    "contactPage": "https://janecreator.com/contact",
+    "instagram": "https://www.instagram.com/janecreator/",
+    "facebook": null,
+    "linkedin": "https://www.linkedin.com/in/janecreator/",
+    "youtube": "https://www.youtube.com/@janecreator",
+    "sourceKeyword": "AI marketing course",
+    "scrapedAt": "2026-05-30T12:00:00.000Z"
+  }
+]

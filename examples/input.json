@@ -1,0 +1,18 @@
+{
+  "keywords": [
+    "AI marketing course",
+    "real estate investing course"
+  ],
+  "courseUrls": [],
+  "maxResults": 25,
+  "includePrices": true,
+  "includeCreatorInfo": true,
+  "includeContactInfo": true,
+  "includeSocialLinks": true,
+  "locationOrLanguage": "English",
+  "deduplicateResults": true,
+  "proxyConfiguration": {
+    "useApifyProxy": true
+  },
+  "debugMode": false
+}

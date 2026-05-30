@@ -1,0 +1,101 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "courseTitle": {
+      "type": "string",
+      "title": "Course title"
+    },
+    "courseUrl": {
+      "type": "string",
+      "title": "Course URL"
+    },
+    "coursePlatform": {
+      "type": "string",
+      "title": "Course platform"
+    },
+    "creatorName": {
+      "type": "string",
+      "title": "Creator name"
+    },
+    "creatorUrl": {
+      "type": "string",
+      "title": "Creator URL"
+    },
+    "creatorWebsite": {
+      "type": "string",
+      "title": "Creator website"
+    },
+    "price": {
+      "type": "number",
+      "title": "Price"
+    },
+    "currency": {
+      "type": "string",
+      "title": "Currency"
+    },
+    "category": {
+      "type": "string",
+      "title": "Category"
+    },
+    "niche": {
+      "type": "string",
+      "title": "Niche"
+    },
+    "descriptionSnippet": {
+      "type": "string",
+      "title": "Description snippet"
+    },
+    "imageUrl": {
+      "type": "string",
+      "title": "Image URL"
+    },
+    "rating": {
+      "type": "number",
+      "title": "Rating"
+    },
+    "reviewCount": {
+      "type": "integer",
+      "title": "Review count"
+    },
+    "studentsCount": {
+      "type": "integer",
+      "title": "Students count"
+    },
+    "email": {
+      "type": "string",
+      "title": "Email"
+    },
+    "phone": {
+      "type": "string",
+      "title": "Phone"
+    },
+    "contactPage": {
+      "type": "string",
+      "title": "Contact page"
+    },
+    "instagram": {
+      "type": "string",
+      "title": "Instagram"
+    },
+    "facebook": {
+      "type": "string",
+      "title": "Facebook"
+    },
+    "linkedin": {
+      "type": "string",
+      "title": "LinkedIn"
+    },
+    "youtube": {
+      "type": "string",
+      "title": "YouTube"
+    },
+    "sourceKeyword": {
+      "type": "string",
+      "title": "Source keyword"
+    },
+    "scrapedAt": {
+      "type": "string",
+      "title": "Scraped at"
+    }
+  }
+}

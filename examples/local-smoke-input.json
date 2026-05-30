@@ -1,0 +1,14 @@
+{
+  "keywords": [
+    "AI marketing course"
+  ],
+  "maxResults": 5,
+  "includePrices": true,
+  "includeCreatorInfo": true,
+  "includeContactInfo": true,
+  "includeSocialLinks": true,
+  "locationOrLanguage": "English",
+  "deduplicateResults": true,
+  "proxyConfiguration": null,
+  "debugMode": true
+}

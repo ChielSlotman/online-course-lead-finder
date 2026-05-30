@@ -1,0 +1,49 @@
+{
+  "actorSpecification": 1,
+  "views": {
+    "overview": {
+      "title": "Course leads",
+      "transformation": {
+        "fields": [
+          "courseTitle",
+          "courseUrl",
+          "coursePlatform",
+          "creatorName",
+          "price",
+          "currency",
+          "category",
+          "niche",
+          "email",
+          "contactPage",
+          "instagram",
+          "linkedin",
+          "youtube",
+          "sourceKeyword",
+          "scrapedAt"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "courseTitle": {
+            "label": "Course"
+          },
+          "courseUrl": {
+            "label": "Course URL",
+            "format": "link"
+          },
+          "creatorName": {
+            "label": "Creator"
+          },
+          "price": {
+            "label": "Price"
+          },
+          "contactPage": {
+            "label": "Contact page",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}

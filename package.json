@@ -1,0 +1,36 @@
+{
+  "name": "online-course-lead-finder",
+  "version": "1.0.0",
+  "description": "Commercial Apify Actor for finding public online courses, creators, course pages, prices, websites, and public contact information for lead generation and market research.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test tests/*.test.js",
+    "lint": "node scripts/validate-json.js && node --check src/main.js && node --check src/course.js"
+  },
+  "dependencies": {
+    "apify": "^3.7.2",
+    "cheerio": "^1.0.0",
+    "got-scraping": "^4.2.1"
+  },
+  "overrides": {
+    "file-type": "22.0.1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "apify",
+    "actor",
+    "online-courses",
+    "course-leads",
+    "creator-leads",
+    "affiliate-research",
+    "education",
+    "lead-generation",
+    "market-research",
+    "scraper"
+  ],
+  "author": "ChielSlotman",
+  "license": "MIT"
+}

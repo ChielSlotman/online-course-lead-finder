@@ -1,0 +1,91 @@
+{
+  "title": "Online Course Lead Finder input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "keywords": {
+      "title": "Keywords or niches",
+      "type": "array",
+      "description": "Course topics, niches, or keywords to search for.",
+      "editor": "stringList",
+      "prefill": [
+        "AI marketing course",
+        "real estate investing course"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "courseUrls": {
+      "title": "Direct course URLs",
+      "type": "array",
+      "description": "Optional direct course URLs to scan.",
+      "editor": "requestListSources",
+      "prefill": [],
+      "items": {
+        "type": "string"
+      }
+    },
+    "maxResults": {
+      "title": "Maximum results",
+      "type": "integer",
+      "description": "Maximum course leads to return.",
+      "minimum": 1,
+      "maximum": 500,
+      "default": 50,
+      "prefill": 25
+    },
+    "includePrices": {
+      "title": "Include prices",
+      "type": "boolean",
+      "description": "Extract visible course prices when available.",
+      "default": true
+    },
+    "includeCreatorInfo": {
+      "title": "Include creator info",
+      "type": "boolean",
+      "description": "Extract public creator/instructor names, URLs, and websites when visible.",
+      "default": true
+    },
+    "includeContactInfo": {
+      "title": "Include public contact info",
+      "type": "boolean",
+      "description": "Extract public emails, phones, and contact pages from course or creator pages when visible.",
+      "default": true
+    },
+    "includeSocialLinks": {
+      "title": "Include social links",
+      "type": "boolean",
+      "description": "Extract public social links from course and creator pages.",
+      "default": true
+    },
+    "locationOrLanguage": {
+      "title": "Location or language",
+      "type": "string",
+      "description": "Optional location or language hint for search queries.",
+      "editor": "textfield",
+      "prefill": "English"
+    },
+    "deduplicateResults": {
+      "title": "Deduplicate results",
+      "type": "boolean",
+      "description": "Remove duplicate course URLs from the output.",
+      "default": true
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "type": "object",
+      "description": "Optional Apify proxy configuration. Useful for reliable public web requests.",
+      "editor": "proxy",
+      "default": {
+        "useApifyProxy": true
+      }
+    },
+    "debugMode": {
+      "title": "Debug mode",
+      "type": "boolean",
+      "description": "Save extra request/debug information to the key-value store.",
+      "default": false
+    }
+  }
+}
