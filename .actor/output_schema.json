@@ -1,49 +1,12 @@
 {
-  "actorSpecification": 1,
-  "views": {
-    "overview": {
+  "actorOutputSchemaVersion": 1,
+  "title": "Online course lead results",
+  "properties": {
+    "courseLeads": {
+      "type": "string",
       "title": "Course leads",
-      "transformation": {
-        "fields": [
-          "courseTitle",
-          "courseUrl",
-          "coursePlatform",
-          "creatorName",
-          "price",
-          "currency",
-          "category",
-          "niche",
-          "email",
-          "contactPage",
-          "instagram",
-          "linkedin",
-          "youtube",
-          "sourceKeyword",
-          "scrapedAt"
-        ]
-      },
-      "display": {
-        "component": "table",
-        "properties": {
-          "courseTitle": {
-            "label": "Course"
-          },
-          "courseUrl": {
-            "label": "Course URL",
-            "format": "link"
-          },
-          "creatorName": {
-            "label": "Creator"
-          },
-          "price": {
-            "label": "Price"
-          },
-          "contactPage": {
-            "label": "Contact page",
-            "format": "link"
-          }
-        }
-      }
+      "description": "Clean public online course and creator lead records for market research, affiliate research, and outreach workflows.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
     }
   }
 }
