@@ -17,6 +17,3 @@ Lead Generation, Education, Marketing, Ecommerce, Data Enrichment, Web Scraping
 
 ## Tags
 online course scraper, course leads, creator leads, affiliate research, course prices, creator contact finder, education market research, Make, Zapier, n8n, Google Sheets
-
-## Pricing
-Recommended launch pricing: pay per result at about $5.00 per 1,000 course or creator results, or an equivalent per-result event price.

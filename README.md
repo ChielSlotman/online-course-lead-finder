@@ -183,7 +183,3 @@ No. It only returns emails that are publicly visible on scanned pages.
 ### Can I use it for affiliate research?
 
 Yes. It is designed for public course discovery, creator research, and affiliate/partnership prospecting.
-
-## Pricing
-
-This Actor is designed for simple pay-per-result pricing. A practical launch price is around $5.00 per 1,000 course or creator records, with final pricing shown on the Apify Store page.
