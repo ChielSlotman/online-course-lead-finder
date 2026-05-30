@@ -20,7 +20,7 @@
       "title": "Direct course URLs",
       "type": "array",
       "description": "Optional direct course URLs to scan.",
-      "editor": "requestListSources",
+      "editor": "stringList",
       "prefill": [],
       "items": {
         "type": "string"
